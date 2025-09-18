@@ -14,7 +14,7 @@
 * [Persona Desarrolladora del Proyecto](#persona-desarrolladora)
 * [Conclusión](#conclusión)
 
-## Descripción del proyecto
+## ℹ️ Descripción del proyecto
 
 ## :hammer:Funcionalidades del proyecto
 
