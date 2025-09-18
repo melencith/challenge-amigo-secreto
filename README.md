@@ -21,12 +21,12 @@
 ## :hammer:Funcionalidades del proyecto
 
 
-## Acceso al proyecto
+## 📁 Acceso al proyecto
 
-## Tecnologías utilizadas:
+## 💻 Tecnologías utilizadas:
 - Visual Code
-## Personas Contribuyentes 
+## 🧔 Personas Contribuyentes 
 - Alura
-## Persona Desarrolladora del Proyecto
+## 🙍 Persona Desarrolladora del Proyecto
 - Milagros Coronado Castro
 Licencia.
