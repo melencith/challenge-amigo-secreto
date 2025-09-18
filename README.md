@@ -7,7 +7,6 @@
 ## Índice
 
 * [Descripción del proyecto](#descripción-del-proyecto)
-* [Estado del proyecto](#estado-del-proyecto)
 * [Funcionalidades del proyecto](#funcionalidades-del-proyecto)
 * [Acceso al proyecto](#acceso-proyecto)
 * [Tecnologías utilizadas](#tecnologías-utilizadas)
