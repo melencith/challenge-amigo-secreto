@@ -31,6 +31,8 @@ La idea principal es practicar **JavaScript, HTML y CSS**, trabajando con listas
 ✔️ **Visualizar la lista** → Los nombres ingresados aparecen en pantalla de forma dinámica.  
 ✔️ **Sorteo aleatorio** → Al presionar el botón `Sortear Amigo`, se selecciona al azar uno de los nombres y se muestra en la página.  
 
+---
+
 ## 📁 Acceso al proyecto
 Puedes acceder al proyecto en el siguiente enlace:
 👉[Challenge Amigo Secreto](https://github.com/melencith/challenge-amigo-secreto)
@@ -40,23 +42,41 @@ Si deseas probarlo de forma local:
    ```bash
    git clone https://github.com/TuUsuario/NombreDelRepositorio.git
 
+---
+
 ## 💻 Tecnologías utilizadas:
 - HTML5
 - CSS3
 - JavaScript
 - Visual Studio Code
 
+---
+
 ## 🧔 Personas Contribuyentes 
 - [AluraLatam](https://www.aluracursos.com/)
+
+---
+
 ## 🙍 Persona Desarrolladora del Proyecto
 [<img src="https://avatars.githubusercontent.com/u/24362178?v=4" width=115><br><sub>Milagros Coronado Castro</sub>](https://github.com/melencith)
+
+---
 
 ## Conclusión
 Este proyecto es una forma práctica y divertida de aplicar conocimientos de programación web.
 Permite mejorar la lógica con JavaScript y practicar la manipulación del DOM, además de trabajar con listas y sorteos aleatorios. 🚀
 
+---
 
-  
+## 🖼️ Vista previa del proyecto  
 
-¿Quieres que también te arme un ejemplo de **captura de pantalla o demo en GIF** para incluirlo en el README y hacerlo más atractivo?
+![Vista previa del proyecto](https://via.placeholder.com/600x300.png?text=Demo+Amigo+Secreto)
+
+---
+
+## 🎥 Demo en acción  
+
+![Demo Amigo Secreto](https://media.giphy.com/media/26AHONQ79FdWZhAI0/giphy.gif)
+
+
 
