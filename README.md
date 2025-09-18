@@ -7,13 +7,15 @@
 
 ## 📑 Índice
 
-* [Descripción del proyecto](#descripción-del-proyecto)
-* [Funcionalidades del proyecto](#funcionalidades-del-proyecto)
-* [Acceso al proyecto](#acceso-proyecto)
-* [Tecnologías utilizadas](#tecnologías-utilizadas)
-* [Personas Contribuyentes](#personas-contribuyentes)
-* [Persona Desarrolladora del Proyecto](#persona-desarrolladora)
+* [Descripción del proyecto](#ℹ️-descripción-del-proyecto)
+* [Funcionalidades](#hammerfuncionalidades-del-proyecto)
+* [Acceso](#📁-acceso-al-proyecto)
+* [Tecnologías](#💻-tecnologías-utilizadas)
+* [Contribuyentes](#🧔-personas-contribuyentes)
+* [Desarrolladora](#🙍-persona-desarrolladora-del-proyecto)
 * [Conclusión](#conclusión)
+* [Vista previa](#🖼️-vista-previa-del-proyecto)
+* [Demo](#🎥-demo-en-acción)
 
 ---
 
@@ -63,8 +65,8 @@ Si deseas probarlo de forma local:
 ---
 
 ## Conclusión
-Este proyecto es una forma práctica y divertida de aplicar conocimientos de programación web.
-Permite mejorar la lógica con JavaScript y practicar la manipulación del DOM, además de trabajar con listas y sorteos aleatorios. 🚀
+Este proyecto me permitió reforzar conocimientos en JavaScript, HTML y CSS, además de practicar la manipulación del DOM para crear experiencias dinámicas en la web.
+El desafío no solo fue útil como práctica, sino también divertido porque conecta la programación con un juego clásico como el Amigo Secreto. 🎁✨
 
 ---
 
