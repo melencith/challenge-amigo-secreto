@@ -9,12 +9,12 @@
 
 * [Descripción del proyecto](#ℹ️-descripción-del-proyecto)
 * [Funcionalidades](#hammerfuncionalidades-del-proyecto)
-* [Acceso](#📁-acceso-al-proyecto)
-* [Tecnologías](#💻-tecnologías-utilizadas)
-* [Contribuyentes](#🧔-personas-contribuyentes)
-* [Desarrolladora](#🙍-persona-desarrolladora-del-proyecto)
+* [Acceso al proyecto](#📁-acceso-al-proyecto)
+* [Tecnologías utilizadas](#💻-tecnologías-utilizadas)
+* [Personas Contribuyentes](#🧔-personas-contribuyentes)
+* [Persona Desarrolladora del Proyecto](#🙍-persona-desarrolladora-del-proyecto)
 * [Conclusión](#conclusión)
-* [Vista previa](#🖼️-vista-previa-del-proyecto)
+* [Vista previa del proyecto](#🖼️-vista-previa-del-proyecto)
 * [Demo](#🎥-demo-en-acción)
 
 ---
@@ -46,7 +46,7 @@ Si deseas probarlo de forma local:
 
 ---
 
-## 💻 Tecnologías utilizadas:
+## 💻 Tecnologías utilizadas
 - HTML5
 - CSS3
 - JavaScript
@@ -76,7 +76,7 @@ El desafío no solo fue útil como práctica, sino también divertido porque con
 
 ---
 
-## 🎥 Demo en acción  
+## 🎥 Demo 
 
 ![Demo Amigo Secreto](https://media.giphy.com/media/26AHONQ79FdWZhAI0/giphy.gif)
 
