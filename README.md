@@ -7,25 +7,21 @@
 ## Índice
 
 * [Descripción del proyecto](#descripción-del-proyecto)
-* [Estado del proyecto](#Estado-del-proyecto)
-* [Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
+* [Estado del proyecto](#estado-del-proyecto)
+* [Funcionalidades del proyecto](#funcionalidades-del-proyecto)
 * [Acceso al proyecto](#acceso-proyecto)
 * [Tecnologías utilizadas](#tecnologías-utilizadas)
 * [Personas Contribuyentes](#personas-contribuyentes)
-* [Persona Desarrolladora del Proyecto](#personas-desarrolladores)
+* [Persona Desarrolladora del Proyecto](#persona-desarrolladora)
 * [Licencia](#licencia)
 * [Conclusión](#conclusión)
 
 ## Descripción del proyecto
 
 ## :hammer:Funcionalidades del proyecto
-funcionalidades y aplicaciones:
 
-Cómo pueden usarlo los usuarios:
 
-Donde los usuarios pueden encontrar ayuda sobre su proyecto:
-
-Autores del proyecto:
+## Acceso al proyecto
 
 ## Tecnologías utilizadas:
 - Visual Code
