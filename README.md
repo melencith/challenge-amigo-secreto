@@ -3,6 +3,7 @@
 ![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
 ![GitHub Org's stars](https://img.shields.io/github/stars/camilafernanda?style=social)
 
+---
 
 ## 📑 Índice
 
@@ -14,11 +15,15 @@
 * [Persona Desarrolladora del Proyecto](#persona-desarrolladora)
 * [Conclusión](#conclusión)
 
+---
+
 ## ℹ️ Descripción del proyecto
 Este proyecto consiste en una aplicación interactiva para organizar un **Amigo Secreto** 🎁.  
 El usuario podrá ingresar nombres de amigos en una lista y, posteriormente, realizar un sorteo aleatorio para determinar quién será el "amigo secreto".  
 
 La idea principal es practicar **JavaScript, HTML y CSS**, trabajando con listas dinámicas, validación de entradas y generación de resultados aleatorios.  
+
+---
 
 ## :hammer:Funcionalidades del proyecto
 ✔️ **Agregar nombres** → El usuario puede escribir un nombre y añadirlo a la lista con el botón `Adicionar`.  
@@ -28,7 +33,12 @@ La idea principal es practicar **JavaScript, HTML y CSS**, trabajando con listas
 
 ## 📁 Acceso al proyecto
 Puedes acceder al proyecto en el siguiente enlace:
-👉[Challenge Amigo Secreto](https://github.com/TuUsuario/NombreDelRepositorio)
+👉[Challenge Amigo Secreto](https://github.com/melencith/challenge-amigo-secreto)
+
+Si deseas probarlo de forma local:  
+1. Clona este repositorio:  
+   ```bash
+   git clone https://github.com/TuUsuario/NombreDelRepositorio.git
 
 ## 💻 Tecnologías utilizadas:
 - HTML5
