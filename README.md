@@ -28,6 +28,6 @@
 ## 🧔 Personas Contribuyentes 
 - Alura
 ## 🙍 Persona Desarrolladora del Proyecto
-[<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Milagros Coronado Castro</sub>](https://github.com/melencith)
+[<img src="https://avatars.githubusercontent.com/u/24362178?v=4" width=115><br><sub>Milagros Coronado Castro</sub>](https://github.com/melencith)
 
 ## Licencia.
