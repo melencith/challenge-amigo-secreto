@@ -16,7 +16,7 @@ function agregarAmigo (){
 
     //Si el usuario deja el campo vacio mostrar una alerta
     if (nombre == ""){
-        alert("Por favor, inserte un nombre");
+        alert("Por favor, inserte un nombre..");
         return;
     }
     
