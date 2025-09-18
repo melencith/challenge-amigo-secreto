@@ -21,6 +21,8 @@
 
 
 ## 📁 Acceso al proyecto
+Puedes acceder al proyecto en el siguiente enlace:
+[Challenge Amigo Secreto](https://github.com/TuUsuario/NombreDelRepositorio)
 
 ## 💻 Tecnologías utilizadas:
 - Visual Code
