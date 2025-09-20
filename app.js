@@ -20,8 +20,12 @@ function agregarAmigo (){
         return;
     }
 
+    //Validar nombres repetidos
     if (amigos.includes(nombre)) {
-    alert("Ese nombre ya se encuentra en la lista.");
+    alert(`El nombre ${nombre}, ya se encuentra en la lista.`);
+    
+    //Se limpia el campo
+    input.value = "";
     return;
     }
 
@@ -57,6 +61,10 @@ function actualizarLista (){
         //Agregar elemento de la lista
         lista.appendChild(li);
     }  
+
+    //mostrador contador de amigos
+    const contAmigos = document.getElementById("contAmigos");
+    contAmigos.innerHTML = `Total de amigos: ${amigos.length}`;
 }
 
 function sortearAmigo() {
