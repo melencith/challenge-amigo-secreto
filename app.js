@@ -58,6 +58,22 @@ function actualizarLista (){
         const li = document.createElement("li");
         li.textContent = amigos[i];
 
+        //Crear Botón eliminar amigo
+        const btnEliminar = document.createElement("button");
+        //evita envío de formularios
+        btnEliminar.type = "button";
+        btnEliminar.className = "btn-eliminar";
+        btnEliminar.setAttribute("aria-label", `Eliminar ${amigos[i]}`);
+        btnEliminar.textContent = "❌";
+
+        //Permite añadir multiples eventos al mismo botón
+        btnEliminar.addEventListener("click", () => {
+            eliminarAmigo(i);
+        });
+
+
+        li.appendChild(btnEliminar);
+
         //Agregar elemento de la lista
         lista.appendChild(li);
     }  
@@ -94,4 +110,14 @@ function sortearAmigo() {
 
     resultado.appendChild(li);
 
+}
+
+function eliminarAmigo(indice){
+    console.log(`Se eliminó: ${amigos[indice]}`);
+
+    // borra 1 elemento en esa posición
+    amigos.splice(indice,1);
+
+    //Actualiza la lista
+    actualizarLista();
 }
