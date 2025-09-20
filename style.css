@@ -162,6 +162,7 @@ ul {
     background-color: var(--color-button-hover);
 }
 
+/* Se añadió estilo al botomn eliminar*/
 .btn-eliminar {
     background: none;
     border: none;
@@ -195,6 +196,7 @@ ul {
     border: none;
 }
 
+/* Se añadió espacio */
 #contAmigos {
     margin-top: 20px;     /* separación visual extra si se desea */
     font-size: 16px;
@@ -206,6 +208,7 @@ ul {
     color: darkred;
 }
 
+/*Se añadió el scroll*/
 .scroll-container {
     max-height: 250px;           /* limita la altura */
     overflow-y: auto;            /* scroll si es necesario */
