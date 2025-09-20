@@ -19,7 +19,12 @@ function agregarAmigo (){
         alert("Por favor, inserte un nombre..");
         return;
     }
-    
+
+    if (amigos.includes(nombre)) {
+    alert("Ese nombre ya se encuentra en la lista.");
+    return;
+    }
+
     //actualiza el array
     amigos.push(nombre);
 
