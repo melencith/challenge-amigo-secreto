@@ -26,5 +26,30 @@ function agregarAmigo (){
     //Se limpia el campo
     input.value = "";
 
-    console.log("Amigos actuales:", amigos);
+    //Actualizar la lista de amigos
+    actualizarLista();
+
+        console.log("Amigos actuales:", amigos);
+}
+
+function actualizarLista (){
+
+    console.log("Se ejecutó la función actualizarLista");
+
+    //Obtener elemento de la lista
+    const lista = document.getElementById ("listaAmigos"); 
+
+    //Limpiar la lista existente
+    lista.innerHTML = "";
+
+    //Iterar sobre el arreglo
+    for (let i=0; i<amigos.length; i++){
+        
+        //Crear elemento de lista (<li>)
+        const li = document.createElement("li");
+        li.textContent = amigos[i];
+
+        //Agregar elemento de la lista
+        lista.appendChild(li);
+    }  
 }
