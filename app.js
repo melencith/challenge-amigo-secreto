@@ -168,6 +168,13 @@ const ruleta = document.getElementById("ruleta");
 let gradosActuales = 0;
 
 function girarRuleta() {
+
+    // Validar que haya amigos disponibles
+    if (amigos.length === 0) {
+        alert("No hay amigos disponibles para sortear...");
+        return;
+    }
+
     // Mostrar overlay
     ruletaOverlay.style.display = "flex";
 
@@ -179,7 +186,7 @@ function girarRuleta() {
         ruleta.style.transform = `rotate(${Math.floor(Math.random() * 360)}deg)`;
         parpadeo++;
 
-        if (parpadeo >= 10) {
+        if (parpadeo < 10) {
             setTimeout(parpadear, 50);
         } else {
             // Giro final animado
@@ -190,9 +197,14 @@ function girarRuleta() {
                 ruleta.style.transition = "transform 4s cubic-bezier(0.25, 1, 0.5, 1)";
                 ruleta.style.transform = `rotate(${gradosActuales}deg)`;
 
-                // Ocultar ruleta después de que termine de girar
+                // Esperar que termine la animación antes de mostrar el resultado
                 setTimeout(() => {
+                    // Ocultar ruleta después de que termine de girar
                     ruletaOverlay.style.display = "none";
+
+                    // Llamar a la función sortearAmigo()
+                    sortearAmigo();   
+
                 }, 4500); // 4s de animación + 0.5s de margen
 
             },50); // deja 50ms para que se aplique el estilo sin transición
@@ -201,4 +213,3 @@ function girarRuleta() {
 
     parpadear();
 }
-btnSortear.addEventListener("click", girarRuleta);
