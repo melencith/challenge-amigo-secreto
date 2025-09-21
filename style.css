@@ -268,3 +268,17 @@ ul {
     border: 1px solid #ccc;
 }
 
+.ruleta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; /* opcional, separa del resto del contenido */
+}
+
+#ruleta {
+    width: 200px; /* ajusta tamaño */
+    height: 200px;
+    transform-origin: center; /* punto de giro en el centro */
+    transition: transform 3s ease-out; /* animación suave al girar */
+}
+
