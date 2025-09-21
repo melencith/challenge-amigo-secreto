@@ -115,10 +115,20 @@ function sortearAmigo() {
     resultado.innerHTML = ""; 
 
     const li = document.createElement("li");
-    li.classList.add("amigo-sorteado"); // clase para estilizarlo
+    li.classList.add("amigo-sorteado"); // clase animada a todo el li
     li.innerHTML = `🎉 El amigo secreto es: <strong>${nombreSorteado}</strong>`;
 
     resultado.appendChild(li);
+
+    // Aplicar animación después de estar en el DOM
+    setTimeout(() => {
+        li.classList.add("amigo-sorteado-animado");
+    }, 50); // pequeño retraso para que el navegador registre el cambio
+
+    // Quitar clase animada después de la animación
+    setTimeout(() => {
+        li.classList.remove("amigo-sorteado-animado");
+    }, 1550); // coincide con duración de animación
 
 }
 
