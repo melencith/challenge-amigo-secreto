@@ -175,6 +175,34 @@ ul {
     margin-left: 10px;
 }
 
+.button-reset {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    margin-top: 10px;
+    padding: 10px 40px;
+    background-color: #FF6B6B;
+    color: var(--color-white);
+    font-size: 16px;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+    border: 2px solid #000;
+}
+
+.button-reset:hover {
+    background-color: #E04C4C;
+}
+
+.reset-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px; /* opcional */
+}
+
+
 /* Para cada amigo de la lista */
 #listaAmigos li {
     margin: 5px 0;      /* elimina margen extra de cada li */
