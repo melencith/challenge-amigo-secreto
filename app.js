@@ -153,40 +153,52 @@ function reiniciarJuego(){
     listaContainer.classList.remove("con-fondo");
 
     // Ocultar la ruleta
-    const ruletaContainer = document.getElementById("ruleta-container");
-    ruletaContainer.style.display = "none";
+    const ruletaOverlay = document.getElementById("ruleta-overlay");
+    ruletaOverlay.style.display = "none";
 
-    console.log("Juego reiniciado");
+    gradosActuales = 0;
+    ruleta.style.transform = "rotate(0deg)";
 }
 
 // --- Animación de ruleta ---
 const btnSortear = document.querySelector(".button-draw");
-const ruletaContainer = document.getElementById("ruleta-container");
+const ruletaOverlay = document.getElementById("ruleta-overlay");
 const ruleta = document.getElementById("ruleta");
 
 let gradosActuales = 0;
 
-btnSortear.addEventListener("click", () => {
-     // Mostrar la ruleta
-    ruletaContainer.style.display = "flex";
+function girarRuleta() {
+    // Mostrar overlay
+    ruletaOverlay.style.display = "flex";
 
-    // ---- Simulación de parpadeo rápido previo ----
+    // Parpadeo rápido
     let parpadeo = 0;
-    const interval = setInterval(() => {
-        const giroAleatorio = Math.floor(Math.random() * 360);
-        ruleta.style.transform = `rotate(${giroAleatorio}deg)`;
+    ruleta.style.transition = "none";
+
+    function parpadear() {
+        ruleta.style.transform = `rotate(${Math.floor(Math.random() * 360)}deg)`;
         parpadeo++;
-        if (parpadeo >= 10) clearInterval(interval); // 10 cambios rápidos
-    }, 50); // cambia cada 50ms
 
+        if (parpadeo >= 10) {
+            setTimeout(parpadear, 50);
+        } else {
+            // Giro final animado
+            setTimeout(() => {
+                const giros = Math.floor(Math.random() * 10) + 10; // 10-19 vueltas
+                gradosActuales += giros * 360;
 
-    // Número de giros aleatorio entre 3 y 6
-    setTimeout(() => {
-        const giros = Math.floor(Math.random() * 10) + 10; // 3 a 5 giros
-        const grados = giros * 360;
+                ruleta.style.transition = "transform 4s cubic-bezier(0.25, 1, 0.5, 1)";
+                ruleta.style.transform = `rotate(${gradosActuales}deg)`;
 
-        gradosActuales += grados;
-        ruleta.style.transition = "transform 4s cubic-bezier(0.25, 1, 0.5, 1)";
-        ruleta.style.transform = `rotate(${gradosActuales}deg)`;
-    }, 600); // espera que termine el parpadeo antes de girar suavemente
-});
+                // Ocultar ruleta después de que termine de girar
+                setTimeout(() => {
+                    ruletaOverlay.style.display = "none";
+                }, 4500); // 4s de animación + 0.5s de margen
+
+            },50); // deja 50ms para que se aplique el estilo sin transición
+        }
+    }
+
+    parpadear();
+}
+btnSortear.addEventListener("click", girarRuleta);
