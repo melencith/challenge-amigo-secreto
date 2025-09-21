@@ -185,6 +185,10 @@ function girarRuleta() {
         return;
     }
 
+    // Ocultar el resultado anterior mientras gira la ruleta
+    const resultado = document.getElementById("resultado");
+    resultado.style.visibility = "hidden"; // <-- ocultamos el texto viejo
+
     // Mostrar overlay
     ruletaOverlay.style.display = "flex";
 
@@ -211,6 +215,9 @@ function girarRuleta() {
                 setTimeout(() => {
                     // Ocultar ruleta después de que termine de girar
                     ruletaOverlay.style.display = "none";
+
+                    // Mostrar el resultado ahora y animarlo
+                    resultado.style.visibility = "visible";
 
                     // Llamar a la función sortearAmigo()
                     sortearAmigo();   
