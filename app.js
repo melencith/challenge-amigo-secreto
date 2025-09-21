@@ -131,3 +131,26 @@ function eliminarAmigo(indice){
     //Actualiza la lista
     actualizarLista();
 }
+
+function reiniciarJuego(){
+    //vacia el arreglo de amigos
+    amigos = [];
+
+    //Limpiar la lista en HTML
+    const lista = document.getElementById("listaAmigos");
+    lista.innerHTML = "";
+
+     //Limpiamos el resultado
+    const resultado = document.getElementById("resultado");
+    resultado.innerHTML = ""; 
+
+    // Actualizar el contador
+    const contAmigos = document.getElementById("contAmigos");
+    contAmigos.innerHTML = "";
+
+    // Quitar clase de fondo
+    const listaContainer = document.querySelector(".scroll-container");
+    listaContainer.classList.remove("con-fondo");
+
+    console.log("Juego reiniciado");
+}
