@@ -152,5 +152,41 @@ function reiniciarJuego(){
     const listaContainer = document.querySelector(".scroll-container");
     listaContainer.classList.remove("con-fondo");
 
+    // Ocultar la ruleta
+    const ruletaContainer = document.getElementById("ruleta-container");
+    ruletaContainer.style.display = "none";
+
     console.log("Juego reiniciado");
 }
+
+// --- Animación de ruleta ---
+const btnSortear = document.querySelector(".button-draw");
+const ruletaContainer = document.getElementById("ruleta-container");
+const ruleta = document.getElementById("ruleta");
+
+let gradosActuales = 0;
+
+btnSortear.addEventListener("click", () => {
+     // Mostrar la ruleta
+    ruletaContainer.style.display = "flex";
+
+    // ---- Simulación de parpadeo rápido previo ----
+    let parpadeo = 0;
+    const interval = setInterval(() => {
+        const giroAleatorio = Math.floor(Math.random() * 360);
+        ruleta.style.transform = `rotate(${giroAleatorio}deg)`;
+        parpadeo++;
+        if (parpadeo >= 10) clearInterval(interval); // 10 cambios rápidos
+    }, 50); // cambia cada 50ms
+
+
+    // Número de giros aleatorio entre 3 y 6
+    setTimeout(() => {
+        const giros = Math.floor(Math.random() * 10) + 10; // 3 a 5 giros
+        const grados = giros * 360;
+
+        gradosActuales += grados;
+        ruleta.style.transition = "transform 4s cubic-bezier(0.25, 1, 0.5, 1)";
+        ruleta.style.transform = `rotate(${gradosActuales}deg)`;
+    }, 600); // espera que termine el parpadeo antes de girar suavemente
+});
