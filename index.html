@@ -30,9 +30,15 @@
              </div>
                 <p id="contAmigos"></p>
             
-            <div id="ruleta-container" style="display: none;">
-                <img id="ruleta" src="assets/ruleta.png" alt="Ruleta de sorteo">
+            <!-- Pop-up de ruleta 
+             ruleta-overlay será el fondo semitransparente que ocupa toda la pantalla.
+             ruleta-popup centrará la ruleta y le dará un tamaño grande.-->
+            <div id="ruleta-overlay">
+                <div id="ruleta-popup">
+                    <img id="ruleta" src="assets/ruleta.png" alt="Ruleta">
+                </div>
             </div>
+
 
             <ul id="resultado" class="result-list" aria-live="polite"></ul>
 
