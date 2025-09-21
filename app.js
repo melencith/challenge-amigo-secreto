@@ -47,9 +47,18 @@ function actualizarLista (){
 
     //Obtener elemento de la lista
     const lista = document.getElementById ("listaAmigos"); 
+    // contenedor
+    const listaContainer = document.querySelector(".scroll-container");
 
     //Limpiar la lista existente
     lista.innerHTML = "";
+
+    // Agregar o quitar clase de fondo según si hay amigos
+    if (amigos.length === 0) {
+        listaContainer.classList.remove("con-fondo");
+    } else {
+        listaContainer.classList.add("con-fondo");
+    }
 
     //Iterar sobre el arreglo
     for (let i=0; i<amigos.length; i++){
@@ -106,6 +115,7 @@ function sortearAmigo() {
     resultado.innerHTML = ""; 
 
     const li = document.createElement("li");
+    li.classList.add("amigo-sorteado"); // clase para estilizarlo
     li.innerHTML = `🎉 El amigo secreto es: <strong>${nombreSorteado}</strong>`;
 
     resultado.appendChild(li);
