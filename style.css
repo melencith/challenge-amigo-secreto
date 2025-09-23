@@ -16,18 +16,21 @@
 }
 
 body {
-    height: 100vh;
-    background-color: var(--color-primary);
+    min-height: 100vh;
+    background-color: var(--color-secondary);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
 }
 
 .main-content {
+    flex: 1;
     display: flex;
     flex-direction: column;
-    height: 100%;
     width: 100%;
+    background-color: var(--color-secondary);
+
 }
 
 /* Banner */
@@ -37,6 +40,8 @@ body {
     justify-content: center;
     align-items: center;
     padding: 40px 0 0;
+    background-color: var(--color-primary);
+    width: 100%;
 }
 
 /* Imagen dentro del banner */
@@ -215,7 +220,6 @@ ul {
     border: 1px solid #ccc;
 }
 
-
 /* Para cada amigo de la lista */
 #listaAmigos li {
     margin: 5px 0;      /* elimina margen extra de cada li */
@@ -243,7 +247,7 @@ ul {
 
 /*Se añadió el scroll*/
 .scroll-container {
-    max-height: 250px;           /* limita la altura */
+    max-height: 240px;           /* limita la altura */
     overflow-y: auto;            /* scroll si es necesario */
     background-color: transparent; /* solo si quieres sin fondo al inicio */
     border-radius: 10px;
@@ -343,3 +347,14 @@ ul {
 }
 
 
+.footer {
+    width: 100%;
+    background-color: var(--color-secondary);
+    margin-top: 2rem; /* separación respecto al contenido */
+    padding: 0.5rem;
+    color: var(--color-text);
+    text-align: center;
+    font-family: "Inter",sans-serif;
+    font-size: 0.9rem;
+    font-weight: 400;
+}
