@@ -213,7 +213,7 @@ function girarRuleta() {
                 const giros = Math.floor(Math.random() * 10) + 10; // 10-19 vueltas
                 gradosActuales += giros * 360;
 
-                ruleta.style.transition = "transform 4s cubic-bezier(0.25, 1, 0.5, 1)";
+                ruleta.style.transition = "transform 2s cubic-bezier(0.25, 1, 0.5, 1)";
                 ruleta.style.transform = `rotate(${gradosActuales}deg)`;
 
                 // Esperar que termine la animación antes de mostrar el resultado
@@ -221,13 +221,21 @@ function girarRuleta() {
                     // Ocultar ruleta después de que termine de girar
                     ruletaOverlay.style.display = "none";
 
+                    // 🎉 Lanzar confetti
+                    confetti({
+                        particleCount: 150,
+                        spread: 90,
+                        origin: { x: 0.5, y: 0.5 }, // centro de la pantalla
+                        scalar: 2 // tamaño de las partículas (2 = el doble)
+                    });
+
                     // Mostrar el resultado ahora y animarlo
                     resultado.style.visibility = "visible";
 
                     // Llamar a la función sortearAmigo()
                     sortearAmigo();   
 
-                }, 4500); // 4s de animación + 0.5s de margen
+                }, 2500); // 4s de animación + 0.5s de margen
 
             },50); // deja 50ms para que se aplique el estilo sin transición
         }
