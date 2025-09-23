@@ -35,13 +35,14 @@ body {
 
 /* Banner */
 .header-banner {
-    flex: 40%;
+    flex: 0 0 15%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px 0 0;
+    padding: 5px 0 0;
     background-color: var(--color-primary);
     width: 100%;
+    box-sizing: border-box;
 }
 
 /* Imagen dentro del banner */
