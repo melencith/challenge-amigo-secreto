@@ -210,7 +210,7 @@ ul {
 }
 
 .divider {
-    margin: 40px auto;   /* espacio arriba y abajo */
+    margin: 10px auto 0px auto; /* arriba 10px, derecha auto, abajo 5px, izquierda auto */
     width: 60%;
     border: 1px solid #ccc;
 }
