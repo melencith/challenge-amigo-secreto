@@ -1,5 +1,5 @@
 :root {
-    --color-primary: #4B69FD;
+    --color-primary: #e77bbe;
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
     --color-button: #fe652b;
@@ -37,6 +37,13 @@ body {
     justify-content: center;
     align-items: center;
     padding: 40px 0 0;
+}
+
+/* Imagen dentro del banner */
+.header-banner img {
+    max-width: 300px; /* ajusta el tamaño según lo que necesites */
+    height: auto;     /* mantiene proporción */
+    margin-left: 15px; /* separa un poco del título */
 }
 
 /* Sección de entrada */
@@ -199,7 +206,13 @@ ul {
     display: flex;
     justify-content: center;
     width: 100%;
-    margin-top: 20px; /* opcional */
+    margin-top: 0px; /* opcional */
+}
+
+.divider {
+    margin: 40px auto;   /* espacio arriba y abajo */
+    width: 60%;
+    border: 1px solid #ccc;
 }
 
 
