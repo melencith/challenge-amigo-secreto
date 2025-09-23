@@ -72,7 +72,7 @@ El desafío no solo fue útil como práctica, sino también divertido porque con
 
 ## 🖼️ Vista previa del proyecto  
 
-![Vista previa del proyecto](https://via.placeholder.com/600x300.png?text=Demo+Amigo+Secreto)
+![Vista previa del proyecto](https://github.com/melencith/challenge-amigo-secreto/blob/main/assets/Imagen%20del%20Challange%20-%20Amigo%20Secreto.PNG)
 
 ---
 
