@@ -20,6 +20,11 @@ function agregarAmigo (){
         return;
     }
 
+     //Validar que sólo contenga letras y espacios
+    if (!/^[A-Za-zÁÉÍÓÚáéíóúñÑ\s]+$/.test(nombre)) {
+    alert("El nombre solo puede contener letras y espacios.");
+    }
+
     //Validar nombres repetidos
     if (amigos.includes(nombre)) {
     alert(`El nombre ${nombre}, ya se encuentra en la lista.`);
