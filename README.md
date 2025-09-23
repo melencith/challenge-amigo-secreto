@@ -1,6 +1,6 @@
 # 🎉 Challenge Amigo Secreto 
 
-![Badge en Desarollo](https://img.shields.io/badge/STATUS-EN%20DESAROLLO-green)
+![Badge Culminado](https://img.shields.io/badge/STATUS-CULMINADO-green)
 ![GitHub Org's stars](https://img.shields.io/github/stars/camilafernanda?style=social)
 
 ---
@@ -15,7 +15,6 @@
 * [Persona Desarrolladora del Proyecto](#🙍-persona-desarrolladora-del-proyecto)
 * [Conclusión](#conclusión)
 * [Vista previa del proyecto](#🖼️-vista-previa-del-proyecto)
-* [Demo](#🎥-demo-en-acción)
 
 ---
 
@@ -75,10 +74,5 @@ El desafío no solo fue útil como práctica, sino también divertido porque con
 ![Vista previa del proyecto](https://github.com/melencith/challenge-amigo-secreto/blob/main/assets/Imagen%20del%20Challange%20-%20Amigo%20Secreto.PNG)
 
 ---
-
-## 🎥 Demo 
-
-![Demo Amigo Secreto](https://media.giphy.com/media/26AHONQ79FdWZhAI0/giphy.gif)
-
 
 
