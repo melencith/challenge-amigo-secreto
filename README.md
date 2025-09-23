@@ -37,7 +37,7 @@ La idea principal es practicar **JavaScript, HTML y CSS**, trabajando con listas
 
 ## 📁 Acceso al proyecto
 Puedes acceder al proyecto en el siguiente enlace:
-👉[Challenge Amigo Secreto](https://github.com/melencith/challenge-amigo-secreto)
+👉[Challenge Amigo Secreto](https://melencith.github.io/challenge-amigo-secreto/)
 
 Si deseas probarlo de forma local:  
 1. Clona este repositorio:  
