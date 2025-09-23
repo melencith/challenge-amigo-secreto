@@ -14,7 +14,7 @@
     <main class="main-content">
         <header class="header-banner">
             <h1 class="main-title">Amigo Secreto</h1>
-            <img src="assets/amigo-secreto.png" alt="Imagen representativa de amigo secreto">
+            <img src="assets/amiga_secreta_ale.png" alt="Imagen representativa de amigo secreto">
         </header>
         
         <section class="input-section">
@@ -39,6 +39,7 @@
                 </div>
             </div>
 
+            <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
 
             <ul id="resultado" class="result-list" aria-live="polite"></ul>
 
@@ -48,7 +49,10 @@
                     Sortear amigo
                 </button>
             </div>
-            <div class="reset-container"></div>
+
+            <hr class="divider">
+            
+            <div class="reset-container">
             <!-- Botón Reiniciar -->
                 <button class="button-reset" onclick="reiniciarJuego()" aria-label="Reiniciar juego">
                 🔄 Reiniciar juego
